@@ -1,6 +1,9 @@
 CREATE SCHEMA staging;
 GO
 
+CREATE SCHEMA raw;
+GO
+
 CREATE SCHEMA silver;
 GO
 
