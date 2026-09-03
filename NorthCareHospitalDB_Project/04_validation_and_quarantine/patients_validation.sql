@@ -100,7 +100,7 @@ JOIN staging.Patients st
 WHERE st.record_status = 'CHANGED'
   AND st.passes_final_validation = 1;
 
--- This insert into statement inserts bad record from staging area to silver layer
+-- This insert into statement inserts bad record from staging area to quarantine area
 
 INSERT INTO quarantine.Patients
 (

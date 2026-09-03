@@ -275,7 +275,7 @@ final_validation AS
             ELSE NULL
         END AS quarantine_reason,
 
-        -- Human-readable data quality issues
+        -- readable data quality issues
         NULLIF(
             CONCAT_WS('; ',
 
@@ -413,3 +413,5 @@ SELECT
     record_status
 
 FROM final_validation;
+
+
