@@ -1,0 +1,9 @@
+CREATE SCHEMA staging;
+GO
+
+CREATE SCHEMA silver;
+GO
+
+CREATE SCHEMA quarantine;
+GO
+
